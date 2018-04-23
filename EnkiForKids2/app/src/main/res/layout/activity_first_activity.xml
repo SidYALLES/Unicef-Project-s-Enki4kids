@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ys.enkiforkids.first_activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/cnxBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Connection" />
+
+        <Button
+            android:id="@+id/qBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cnxBtn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:text="Quitter" />
+
+        <Button
+            android:id="@+id/testBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/cnxBtn"
+            android:layout_alignBottom="@+id/cnxBtn"
+            android:layout_centerHorizontal="true"
+            android:text="Réessayer"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/strBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/cnxBtn"
+            android:layout_alignStart="@+id/cnxBtn"
+            android:layout_centerVertical="true"
+            android:text="Commancer"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/cnxBtn"
+            android:layout_alignStart="@+id/cnxBtn"
+            android:layout_centerVertical="true"
+            android:text="Commancer"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="85dp"
+            android:text="Rebot non connecté"
+            android:textSize="40dp"
+            android:textAlignment="center"/>
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
